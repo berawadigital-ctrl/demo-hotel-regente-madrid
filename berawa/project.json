@@ -1,0 +1,63 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-hotel-regente-madrid",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-10-29T08:10:00+01:00",
+ "updated_at": "2026-10-29T08:10:00+01:00",
+ "business": {
+  "name": "Hotel Regente",
+  "legal_name": "Canor S.L.",
+  "registry_ids": [
+   "CIF B-46111126"
+  ],
+  "url": "https://www.hotelregente.com/",
+  "domain": "hotelregente.com",
+  "municipality": "Madrid",
+  "province": "Madrid",
+  "address": "C/ Mesoneros Romanos, 9 · 28013 Madrid",
+  "phones": [
+   "915 21 29 41"
+  ],
+  "emails": [
+   "reservas@hotelregente.com"
+  ],
+  "sector": "hotel familiar en la Gran Vía"
+ },
+ "rating": {
+  "value": 4.2,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por telefono, web)",
+  "url": "https://www.google.com/maps/place/Hotel+Regente+Madrid/@40.4197096,-3.7043006,17z/data=!3m1!5s0xd42287dbc952d0d:0xf7cdfddf529fd16b!4m9!3m8!1s0xd42287dbd5d8a4d:0xf4a33ea4d6d7dab!5m2!4m1!1i2!8m2!3d40.4197096!4d-3.7043006!16s%2Fg%2F1tdqjsq0",
+  "date": "2026-10-29T06:51:04+01:00",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "ca",
+  "en",
+  "fr"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "mail",
+  "email": "reservas@hotelregente.com",
+  "note": "La web del negocio reserva con un buscador de Mirai cargado por JavaScript sin URL publica estable (sin idtokenprovider no hay enlace directo y ese parametro contiene la palabra token, que el control S10 no admite); la demo usa el correo de reservas publicado y el telefono."
+ },
+ "audit_original": {
+  "url": "https://www.hotelregente.com/",
+  "date": "2026-10-29T07:42:00+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: hotel con precedente en demos anteriores",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}
