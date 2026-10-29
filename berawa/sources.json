@@ -1,0 +1,60 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://www.hotelregente.com/",
+ "read_at": "2026-10-29T08:00:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://www.hotelregente.com/",
+   "sha256": "7ab004a90bab3f6e0e265b505d886a60ebe735a92d17989104a09ce66a8bf03f",
+   "chars": 4444
+  },
+  {
+   "url": "https://www.hotelregente.com/aviso-legal/",
+   "sha256": "c913380bf1527020a8eedb43ebfeef6baa7f8de032b1ad8332eea3e2d5f8b9eb",
+   "chars": 16842
+  },
+  {
+   "url": "https://www.hotelregente.com/eventos/",
+   "sha256": "cce64d1738e85622ec069910b94d49ced72b0794403928cbc1f4a903ef30c757",
+   "chars": 2763
+  },
+  {
+   "url": "https://www.hotelregente.com/habitaciones/",
+   "sha256": "6c9f19f8557ce11929563ab7b016d0244018caecb06283f7f3230599269b715f",
+   "chars": 8077
+  },
+  {
+   "url": "https://www.hotelregente.com/hotel/",
+   "sha256": "c6dacdc0a2992e8208c85604c1025897f4d778db910f3323db30d08d41634e4f",
+   "chars": 2672
+  },
+  {
+   "url": "https://www.hotelregente.com/servicios/",
+   "sha256": "42ab8b7fef24f19e2d7c76fe0b73048a2c690420b0a5926854fa7b8252521a90",
+   "chars": 6122
+  },
+  {
+   "url": "https://www.hotelregente.com/situacion/",
+   "sha256": "a5c1f248cae08c54514d1ae0a1368ef786c18ab649fa4dd44a3888088508407f",
+   "chars": 4654
+  }
+ ],
+ "other_pages_read": [
+  "https://www.hotelregente.com",
+  "https://www.hotelregente.com/contacto/",
+  "https://www.hotelregente.com/cookies/",
+  "https://www.hotelregente.com/en/",
+  "https://www.hotelregente.com/en/events/",
+  "https://www.hotelregente.com/en/gallery/",
+  "https://www.hotelregente.com/en/hotel/",
+  "https://www.hotelregente.com/en/location/",
+  "https://www.hotelregente.com/en/offers/",
+  "https://www.hotelregente.com/en/rooms/",
+  "https://www.hotelregente.com/en/services/",
+  "https://www.hotelregente.com/galeria/",
+  "https://www.hotelregente.com/ofertas/",
+  "https://www.hotelregente.com/politica-de-privacidad/",
+  "https://www.hotelregente.com/signup/"
+ ]
+}
